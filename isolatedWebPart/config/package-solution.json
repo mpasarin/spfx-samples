@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "isolated-web-part-client-side-solution",
+    "id": "afb38357-2754-4cab-903d-01880dbc579b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      }
+    ]
+ 
+  },
+  "paths": {
+    "zippedPackage": "solution/isolated-web-part.sppkg"
+  }
+}

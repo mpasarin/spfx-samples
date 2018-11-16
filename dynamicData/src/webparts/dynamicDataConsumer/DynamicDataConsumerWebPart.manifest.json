@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "b8b9ee75-9fee-4ea3-956a-caed050246a4",
+  "alias": "DynamicDataConsumerWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Dynamic data consumer" },
+    "description": { "default": "Sample consumer of dynamic data" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "DynamicDataConsumer",
+      // Declare values normally on your preconfigured entries
+      "bgColor": "#005a9e"
+    }
+  }]
+}
